@@ -4,7 +4,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 // We'll refer to our source and dist paths frequently, so let's store them here
 const PATH_SOURCE = path.join(__dirname, './src/client');
-const PATH_DIST = path.join(__dirname, './src/client/dist');
+const PATH_DIST = path.join(__dirname, './dist');
 
 module.exports = {
   // The point or points to enter the application. This is where Webpack will
