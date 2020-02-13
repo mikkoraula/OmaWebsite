@@ -70,6 +70,7 @@ module.exports = {
   },
   resolve: {
     extensions: ['*', '.js', '.jsx'],
+    alias: { root: path.resolve(PATH_SOURCE) },
   },
   devServer: {
     // The dev server will serve content from this directory.
